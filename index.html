@@ -1,0 +1,243 @@
+<!DOCTYPE html><html lang="it"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/><title>Finance · Aggiungi movimento</title><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Syne:wght@700;800&display=swap" rel="stylesheet"/><style>:root{--a9b0:#0a0c10;--a1b2:#111318;--c3d4:#181c24;--e5f6:#1e2330;--c5d6:#e2e8f0;--a7b8:#4a5568;--c9d0:#6ee7b7;--e1f2:#34d399;--e7f8:#f87171;--a3b4:#fbbf24;--c1d2:12px}[data-theme="light"]{--a9b0:#f4f6f9;--a1b2:#ffffff;--c3d4:#eef0f5;--e5f6:#e0e4ed;--c5d6:#1a202c;--a7b8:#8896a8;--c9d0:#059669;--e1f2:#059669;--e7f8:#dc2626;--a3b4:#d97706}*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}body{background:var(--a9b0);color:var(--c5d6);font-family:'IBM Plex Mono',monospace;min-height:100vh;display:flex;flex-direction:column;transition:background .25s,color .25s}header{display:flex;align-items:center;justify-content:space-between;padding:18px 20px;border-bottom:1px solid var(--e5f6)}.z03{display:flex;align-items:center;gap:10px}.z04{color:var(--c9d0);font-size:1.3rem}.z03 h1{font-family:'Syne',sans-serif;font-size:1.05rem;font-weight:800}.z15{display:flex;gap:8px}.z16{background:var(--a1b2);border:1px solid var(--e5f6);border-radius:8px;color:var(--a7b8);cursor:pointer;font-size:1rem;padding:7px 10px;transition:color .15s,border-color .15s}.z16:hover{color:var(--c5d6);border-color:var(--a7b8)}.z21{padding:16px 20px 0;display:flex;align-items:center;gap:10px}.z20{flex:1;height:3px;background:var(--e5f6);border-radius:99px;overflow:hidden}.y01{height:100%;background:var(--c9d0);border-radius:99px;transition:width .35s ease}.y02{font-size:0.7rem;color:var(--a7b8);white-space:nowrap}main{flex:1;display:flex;flex-direction:column;align-items:center;padding:32px 20px 24px;max-width:480px;width:100%;margin:0 auto}.z28{width:100%;display:none;flex-direction:column;gap:20px;animation:slideIn .25s ease}.z28.z01{display:flex}@keyframes slideIn{from{opacity:0;transform:translateX(18px)}to{opacity:1;transform:translateX(0)}}.z30{font-family:'Syne',sans-serif;font-size:1.4rem;font-weight:800;line-height:1.2}.z29{font-size:0.75rem;color:var(--a7b8);margin-top:4px}.z14{display:flex;flex-direction:column;gap:8px}.z14 label{font-size:0.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--a7b8)}input[type=text],input[type=date],input[type=password],input[type=number],select{background:var(--a1b2);border:1px solid var(--e5f6);border-radius:var(--c1d2);color:var(--c5d6);font-family:'IBM Plex Mono',monospace;font-size:1rem;outline:none;padding:14px 16px;transition:border-color .2s;width:100%;-webkit-appearance:none}input:focus,select:focus{border-color:var(--c9d0)}input::placeholder{color:var(--a7b8)}select option{background:var(--a1b2)}.z02{display:flex;gap:10px}.z26{background:var(--a1b2);border:1px solid var(--e5f6);border-radius:var(--c1d2);color:var(--a7b8);cursor:pointer;display:flex;align-items:center;gap:6px;font-family:'IBM Plex Mono',monospace;font-size:0.85rem;font-weight:600;padding:0 16px;white-space:nowrap;transition:all .15s;min-width:110px;justify-content:center}.z26.uscita{background:#450a0a30;border-color:var(--e7f8);color:var(--e7f8)}.z26.entrata{background:#05402030;border-color:var(--e1f2);color:var(--e1f2)}.z10{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.z10.z12{grid-template-columns:repeat(3,1fr)}.z09{background:var(--a1b2);border:1px solid var(--e5f6);border-radius:var(--c1d2);color:var(--a7b8);cursor:pointer;display:flex;align-items:center;gap:8px;font-family:'IBM Plex Mono',monospace;font-size:0.82rem;padding:13px 14px;transition:all .15s}.z09:hover{border-color:var(--a7b8);color:var(--c5d6)}.z09.z22{border-color:var(--c9d0);color:var(--c9d0);background:#6ee7b710}.z11{font-size:1.1em}.z17{display:flex;gap:10px;margin-top:8px}.z05{border:none;border-radius:var(--c1d2);cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:0.85rem;font-weight:600;padding:15px 0;transition:all .15s}.z06{background:var(--a1b2);border:1px solid var(--e5f6);color:var(--a7b8);flex:0 0 56px}.z06:hover{color:var(--c5d6);border-color:var(--a7b8)}.btn-_0x72e5{background:var(--c9d0);color:#0a0c10;flex:1}.btn-_0x72e5:hover{filter:brightness(1.1)}.btn-_0x72e5:disabled{opacity:.4;cursor:not-allowed;filter:none}.btn-_0x98b2{background:var(--c9d0);color:#0a0c10;flex:1}.btn-_0x98b2:disabled{opacity:.4;cursor:not-allowed}.z31{display:flex;flex-direction:column;gap:1px;border-radius:var(--c1d2);overflow:hidden;border:1px solid var(--e5f6)}.z33{background:var(--a1b2);display:flex;justify-content:space-between;padding:12px 16px;font-size:0.8rem}.z33+.z33{border-top:1px solid var(--e5f6)}.z32{color:var(--a7b8)}.z34{color:var(--c5d6);font-weight:500}.z34.z19{color:var(--e1f2)}.z34.z18{color:var(--e7f8)}#x17{display:none;position:fixed;inset:0;background:#0008;align-items:center;justify-content:center;z-index:100}#x17.z25{display:flex}.y03{background:var(--a1b2);border:1px solid var(--e5f6);border-radius:16px;padding:32px 28px;max-width:320px;width:90%;text-align:center;display:flex;flex-direction:column;align-items:center;gap:14px}.z27{font-size:2.4rem}.y04{font-family:'Syne',sans-serif;font-size:1rem;font-weight:700}.y06{font-size:0.75rem;color:var(--a7b8)}.y05{width:36px;height:36px;border:3px solid var(--e5f6);border-top-color:var(--c9d0);border-radius:50%;animation:spin .7s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}.z07{margin-top:4px;background:var(--c9d0);border:none;border-radius:8px;color:#0a0c10;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:0.8rem;font-weight:600;padding:10px 24px}#x14{display:none;position:fixed;inset:0;background:#0008;z-index:90;align-items:flex-end}#x14.z25{display:flex}.z23{background:var(--a9b0);border-radius:20px 20px 0 0;border:1px solid var(--e5f6);padding:28px 22px 40px;width:100%;max-height:90vh;overflow-y:auto;display:flex;flex-direction:column;gap:18px;animation:slideUp .25s ease}@keyframes slideUp{from{transform:translateY(100%)}to{transform:translateY(0)}}.z13{font-family:'Syne',sans-serif;font-size:1.1rem;font-weight:800}.z24{display:flex;flex-direction:column;gap:14px}.z24 .z14 label{font-size:0.68rem}.z08{background:var(--c9d0);border:none;border-radius:var(--c1d2);color:#0a0c10;cursor:pointer;font-family:'IBM Plex Mono',monospace;font-size:0.85rem;font-weight:600;padding:14px;width:100%;transition:filter .15s}.z08:hover{filter:brightness(1.1)}#x20{display:none;position:fixed;inset:0;background:#0009;align-items:center;justify-content:center;z-index:150;padding:20px}#x20.z25{display:flex}.err{color:var(--e7f8);font-size:0.72rem;margin-top:-6px}</style></head><body><header><div class="z03"><span class="z04">⬡</span><h1>Finance Tracker</h1></div><div class="z15"><button class="z16" id="x02" title="Tema">☀</button><button class="z16" id="x01" title="Impostazioni">⚙</button></div></header><div class="z21"><div class="z20"><div class="y01" id="y01" style="width:0%"></div></div><span class="y02" id="y02">0 / 6</span></div><main><div class="z28 z01" data-step="0"><div><div class="z30">📅 Quando?</div><div class="z29">Data del movimento</div></div><div class="z14"><label>Data</label><input type="date" id="x04"/></div><div class="z17"><button class="z05 btn-_0x72e5" onclick="_0x72e5(0)">Avanti →</button></div></div><div class="z28" data-step="1"><div><div class="z30">📍 Dove?</div><div class="z29">Luogo o esercizio</div></div><div class="z14"><label>Luogo</label><input type="text" id="x07" placeholder="es. (Faenza) Coop"/></div><div class="z17"><button class="z05 z06" onclick="_0x1b8f(1)">←</button><button class="z05 btn-_0x72e5" onclick="_0x72e5(1)">Avanti →</button></div></div><div class="z28" data-step="2"><div><div class="z30">📝 Cosa?</div><div class="z29">Breve descrizione</div></div><div class="z14"><label>Descrizione</label><input type="text" id="x05" placeholder="es. spesa settimanale"/></div><div class="z17"><button class="z05 z06" onclick="_0x1b8f(2)">←</button><button class="z05 btn-_0x72e5" onclick="_0x72e5(2)">Avanti →</button></div></div><div class="z28" data-step="3"><div><div class="z30">🏷 Categoria</div><div class="z29">Seleziona una categoria</div></div><div class="z10" id="x03"><div class="z09" onclick="_0x5d4a(this,'cat')" data-val="alimentari"><span class="z11">🛒</span> alimentari</div><div class="z09" onclick="_0x5d4a(this,'cat')" data-val="divertimento"><span class="z11">🎬</span> divertimento</div><div class="z09" onclick="_0x5d4a(this,'cat')" data-val="trasporti"><span class="z11">⛽</span> trasporti</div><div class="z09" onclick="_0x5d4a(this,'cat')" data-val="abbonamenti"><span class="z11">📱</span> abbonamenti</div><div class="z09" onclick="_0x5d4a(this,'cat')" data-val="salute"><span class="z11">💊</span> salute</div><div class="z09" onclick="_0x5d4a(this,'cat')" data-val="istruzione"><span class="z11">📚</span> istruzione</div><div class="z09" onclick="_0x5d4a(this,'cat')" data-val="tecnologia"><span class="z11">💻</span> tecnologia</div><div class="z09" onclick="_0x5d4a(this,'cat')" data-val="sport"><span class="z11">🏋️</span> sport</div><div class="z09" onclick="_0x5d4a(this,'cat')" data-val="stipendio"><span class="z11">💼</span> stipendio</div><div class="z09" onclick="_0x5d4a(this,'cat')" data-val="lavoro extra"><span class="z11">🔧</span> lavoro extra</div><div class="z09" onclick="_0x5d4a(this,'cat')" data-val="varie"><span class="z11">📂</span> varie</div></div><div class="z17"><button class="z05 z06" onclick="_0x1b8f(3)">←</button><button class="z05 btn-_0x72e5" id="btn-_0x72e5-3" onclick="_0x72e5(3)" disabled>Avanti →</button></div></div><div class="z28" data-step="4"><div><div class="z30">💶 Quanto?</div><div class="z29">Importo e tipo movimento</div></div><div class="z14"><label>Importo (€)</label><div class="z02"><button class="z26 uscita" id="x15" onclick="_0xe3c7()"><span id="x16">−</span> uscita </button><input type="number" id="x06" placeholder="0,00" step="0.01" min="0"/></div></div><div class="z17"><button class="z05 z06" onclick="_0x1b8f(4)">←</button><button class="z05 btn-_0x72e5" onclick="_0x72e5(4)">Avanti →</button></div></div><div class="z28" data-step="5"><div><div class="z30">💳 Come?</div><div class="z29">Metodo di pagamento</div></div><div class="z10 z12"><div class="z09" onclick="_0x5d4a(this,'mov')" data-val="contanti"><span class="z11">💵</span> contanti</div><div class="z09" onclick="_0x5d4a(this,'mov')" data-val="carta"><span class="z11">💳</span> carta</div><div class="z09" onclick="_0x5d4a(this,'mov')" data-val="bonifico"><span class="z11">🏦</span> bonifico</div></div><div class="z17"><button class="z05 z06" onclick="_0x1b8f(5)">←</button><button class="z05 btn-_0x72e5" id="btn-_0x72e5-5" onclick="_0x72e5(5)" disabled>Avanti →</button></div></div><div class="z28" data-step="6"><div><div class="z30">✅ Riepilogo</div><div class="z29">Controlla e salva</div></div><div class="z31" id="x18"></div><div class="z17"><button class="z05 z06" onclick="_0x1b8f(6)">←</button><button class="z05 btn-_0x98b2 btn-_0x72e5" id="btn-_0x98b2" onclick="_0x98b2()">Salva su GitHub</button></div></div></main><div id="x17"><div class="y03" id="y03"><div class="y05" id="y05"></div><div class="y04" id="y04">Salvataggio in corso…</div><div class="y06" id="y06">Connessione a GitHub</div></div></div><div id="x20"><div class="y03" style="gap:18px;padding:36px 28px;"><div style="font-size:1.8rem;">🔐</div><div class="y04" style="font-family:'Syne',sans-serif;font-size:1.1rem;">Inserisci la password</div><input type="password" id="x21" placeholder="password…" style="background:var(--c3d4);border:1px solid var(--e5f6);border-radius:8px; color:var(--c5d6);font-family:'IBM Plex Mono',monospace;font-size:1rem; outline:none;padding:13px 16px;width:100%;margin-top:4px;"/><p id="x19" style="color:var(--e7f8);font-size:.72rem;display:none;">Password errata — riprova.</p><button class="z07" onclick="_0x0d3f()" style="width:100%;">Sblocca</button><button onclick="_0xb8c4()" style="background:none;border:none;color:var(--a7b8);cursor:pointer; font-family:'IBM Plex Mono',monospace;font-size:.7rem;margin-top:-8px;"> Riconfigura da zero </button></div></div><div id="x14" onclick="_0x7b1a(event)"><div class="z23"><div class="z13">⚙ Configurazione</div><div class="z24"><div class="z14"><label>GitHub Token (PAT)</label><input type="password" id="x12"/></div><div class="z14"><label>Owner (utente GitHub)</label><input type="text" id="x09"/></div><div class="z14"><label>Repository</label><input type="text" id="x11"/></div><div class="z14"><label>Percorso file</label><input type="text" id="x10"/></div><div class="z14"><label>Password</label><input type="password" id="x08"/></div></div><p id="x13" style="color:var(--e7f8);font-size:.72rem;display:none;"></p><button class="z08" onclick="_0xc2e9()">Salva configurazione</button></div></div><script type="module">const _0x2c3d=new TextEncoder()
+const _0x4e5f=new TextDecoder()
+async function _0x3f2a(password,_0x9e0f) {
+const _0x1177=await crypto.subtle.importKey('raw',_0x2c3d.encode(password),'PBKDF2',false,['deriveKey'])
+return crypto.subtle.deriveKey(
+{ name: 'PBKDF2',salt: _0x9e0f,iterations: 200_000,hash: 'SHA-256' },
+_0x1177,{ name: 'AES-GCM',length: 256 },false,['encrypt','decrypt']
+)
+}
+async function _0x1d7c(_0xaab0,password) {
+const _0x9e0f=crypto.getRandomValues(new Uint8Array(16))
+const _0xab1c=crypto.getRandomValues(new Uint8Array(12))
+const _0x88ee=await _0x3f2a(password,_0x9e0f)
+const _0x3e4f=await crypto.subtle.encrypt({ name: 'AES-GCM',iv: _0xab1c },_0x88ee,_0x2c3d.encode(_0xaab0))
+const _0x5a6b=new Uint8Array(28+_0x3e4f.byteLength)
+_0x5a6b.set(_0x9e0f,0);_0x5a6b.set(_0xab1c,16);_0x5a6b.set(new Uint8Array(_0x3e4f),28)
+return btoa(String.fromCharCode(..._0x5a6b))
+}
+async function _0x8b4e(_0xbbc1,password) {
+const _0x1c2d=Uint8Array.from(atob(_0xbbc1),c=>c.charCodeAt(0))
+const _0x88ee=await _0x3f2a(password,_0x1c2d.slice(0,16))
+const _0x7c8d=await crypto.subtle.decrypt({ name: 'AES-GCM',iv: _0x1c2d.slice(16,28) },_0x88ee,_0x1c2d.slice(28))
+return _0x4e5f.decode(_0x7c8d)
+}
+let _0x6a7b=null
+function _0x5c91() { return _0x6a7b!==null }
+async function _0x2e6f(_0x44aa,_0x55bb,_0x66cc,_0x77dd,_0x88ee) {
+const _0xf3a4=JSON.stringify({ token: _0x44aa,owner: _0x55bb,repo: _0x66cc,path: _0x77dd })
+const _0xa5b6=await _0x1d7c(_0xf3a4,_0x88ee)
+localStorage.setItem('ft-settings',_0xa5b6)
+}
+async function _0x7a3b(password) {
+const _0xa5b6=localStorage.getItem('ft-settings')
+if (!_0xa5b6) throw new Error('no-settings')
+const _0xf3a4=await _0x8b4e(_0xa5b6,password)
+const _0xc7d8=JSON.parse(_0xf3a4)
+_0x6a7b={ ..._0xc7d8,key: password }
+}
+async function _0x4d9c() {
+const { token: _0x44aa,owner: _0x55bb,repo: _0x66cc,path: _0x77dd }=_0x6a7b
+const r=await fetch(`https://api.github.com/repos/${_0x55bb}/${_0x66cc}/contents/${_0x77dd}`,{
+headers: { Authorization: `Bearer ${_0x44aa}`,Accept: 'application/vnd.github+json' }
+})
+if (!r.ok) throw new Error(`GitHub GET ${r.status}: ${await r.text()}`)
+return r.json()
+}
+async function _0x6f1e(_0xfa1b,_0xff6a) {
+const { token: _0x44aa,owner: _0x55bb,repo: _0x66cc,path: _0x77dd }=_0x6a7b
+const _0x3399={ message: 'nuovo movimento',content: _0xfa1b }
+if (_0xff6a) _0x3399.sha=_0xff6a
+const r=await fetch(`https://api.github.com/repos/${_0x55bb}/${_0x66cc}/contents/${_0x77dd}`,{
+method: 'PUT',
+headers: {
+Authorization: `Bearer ${_0x44aa}`,
+Accept: 'application/vnd.github+json',
+'Content-Type': 'application/json'
+},
+body: JSON.stringify(_0x3399)
+})
+if (!r.ok) throw new Error(`GitHub PUT ${r.status}: ${await r.text()}`)
+return r.json()
+}
+const _0x8c9d={ cat: null,mov: null,sign: 'uscita' }
+const _0xaeb1=6
+function _0x9b2d(n) {
+document.querySelectorAll('.z28').forEach(s=>s.classList.remove('z01'))
+document.querySelector(`[data-step="${n}"]`).classList.add('z01')
+document.getElementById('y01').style.width=`${(n/_0xaeb1)*100}%`
+document.getElementById('y02').textContent=`${n}/${_0xaeb1}`
+if (n===_0xaeb1) _0xe8f3()
+}
+window._0x72e5=function (_0xeef4) {
+if (_0xeef4===3&&!_0x8c9d.cat) return
+if (_0xeef4===5&&!_0x8c9d.mov) return
+_0x9b2d(_0xeef4+1)
+}
+window._0x1b8f=function (_0xeef4) { _0x9b2d(_0xeef4-1) }
+window._0x5d4a=function (el,type) {
+el.closest('.z10').querySelectorAll('.z09').forEach(c=>c.classList.remove('z22'))
+el.classList.add('z22')
+_0x8c9d[type]=el.dataset.val
+if (type==='cat') document.getElementById('btn-_0x72e5-3').disabled=false
+if (type==='mov') document.getElementById('btn-_0x72e5-5').disabled=false
+}
+window._0xe3c7=function () {
+_0x8c9d.sign=_0x8c9d.sign==='uscita' ? 'entrata' : 'uscita'
+const btn=document.getElementById('x15')
+btn.className=`z26 ${_0x8c9d.sign}`
+btn.innerHTML=`<span>${_0x8c9d.sign==='uscita' ? '−' : '+'}</span>${_0x8c9d.sign}`
+}
+function _0xc4a7() {
+const _0x2288=document.getElementById('x04').value
+const _0xdd4e=document.getElementById('x07').value.trim()
+const _0xcc3d=document.getElementById('x05').value.trim()
+const _0x1177=parseFloat(document.getElementById('x06').value||'0')
+const _0xd1e2=_0x8c9d.sign==='uscita' ?-Math.abs(_0x1177) : Math.abs(_0x1177)
+const [y,m,d]=_0x2288.split('-')
+return {
+Data:       `${d}/${m}/${y}`,
+Luogo:      _0xdd4e,
+Descrizione: _0xcc3d,
+Categoria:  _0x8c9d.cat,
+Importo:    (_0xd1e2>0 ? '+' : '')+_0xd1e2.toFixed(2).replace('.',','),
+Tipologia:  _0x8c9d.sign,
+Movimento:  _0x8c9d.mov,
+}
+}
+function _0xe8f3() {
+const _0xe9f0=_0xc4a7()
+document.getElementById('x18').innerHTML=Object.entries(_0xe9f0).map(([k,v])=>{
+const n=parseFloat(v.replace(',','.'))
+const cls=k==='Importo' ? (n>=0 ? 'z19' : 'z18') : ''
+return `<div class="z33"><span class="z32">${k}</span><span class="z34 ${cls}">${v}</span></div>`
+}).join('')
+}
+window._0x98b2=async function () {
+if (!_0x5c91()) {
+_0xb1d6('error','Sessione scaduta','Ricarica la pagina e reinserisci la password.')
+return
+}
+_0xb1d6('loading','Connessione…','Scarico il file da GitHub')
+try {
+let _0xff6a,_0xe5f6
+try {
+const _0x99ff=await _0x4d9c()
+_0xff6a=_0x99ff.sha
+_0xe5f6=await _0x8b4e(_0x99ff.content.replace(/\n/g,''),_0x6a7b.key)
+} catch (e) {
+if (e.message.includes('404')) {
+_0xe5f6='Data;Luogo;Descrizione;Categoria;Importo;Tipologia;Movimento'
+} else throw e
+}
+_0x03ae('Cifratura…','Aggiungo la riga e ricifrо')
+const _0xe9f0=_0xc4a7()
+_0xe5f6=_0xe5f6.trimEnd()+'\n'+Object.values(_0xe9f0).join(';')
+const _0xf7a8=await _0x1d7c(_0xe5f6,_0x6a7b.key)
+_0x03ae('Salvataggio…','Commit su GitHub')
+await _0x6f1e(_0xf7a8,_0xff6a)
+_0xb1d6('success','Salvato!✓',`Movimento aggiunto con successo.`)
+_0xd57b()
+} catch (err) {
+console.error(err)
+_0xb1d6('error','Errore',err.message)
+}
+}
+function _0xd57b() {
+_0x8c9d.cat=null;_0x8c9d.mov=null;_0x8c9d.sign='uscita'
+document.querySelectorAll('.z09').forEach(c=>c.classList.remove('z22'))
+document.getElementById('x07').value=''
+document.getElementById('x05').value=''
+document.getElementById('x06').value=''
+document.getElementById('btn-_0x72e5-3').disabled=true
+document.getElementById('btn-_0x72e5-5').disabled=true
+_0xf294()
+}
+function _0xb1d6(type,_0xccd2,_0xdde3) {
+document.getElementById('x17').classList.add('z25')
+const _0xee5f=document.getElementById('y03')
+if (type==='loading') {
+_0xee5f.innerHTML=`<div class="y05"></div>
+<div class="y04">${_0xccd2}</div><div class="y06">${_0xdde3}</div>`
+} else if (type==='success') {
+_0xee5f.innerHTML=`<div class="z27">✅</div>
+<div class="y04">${_0xccd2}</div><div class="y06">${_0xdde3}</div>
+<button class="z07" onclick="_0x4f6d()">Nuovo movimento</button>`
+} else {
+_0xee5f.innerHTML=`<div class="z27">❌</div>
+<div class="y04">${_0xccd2}</div><div class="y06">${_0xdde3}</div>
+<button class="z07" onclick="document.getElementById('x17').classList.remove('z25')">Chiudi</button>`
+}
+}
+function _0x03ae(_0xccd2,_0xdde3) {
+const el=document.getElementById('x17')
+el.querySelector('.y04').textContent=_0xccd2
+el.querySelector('.y06').textContent=_0xdde3
+}
+window._0x4f6d=function () {
+document.getElementById('x17').classList.remove('z25')
+_0x9b2d(0)
+}
+window._0xc2e9=async function () {
+const _0x44aa=document.getElementById('x12').value.trim()
+const _0x55bb=document.getElementById('x09').value.trim()
+const _0x66cc=document.getElementById('x11').value.trim()
+const _0x77dd=document.getElementById('x10').value.trim()
+const _0x88ee=document.getElementById('x08').value.trim()
+const _0xb9c0=document.getElementById('x13')
+if (!_0x44aa||!_0x55bb||!_0x66cc||!_0x77dd||!_0x88ee) {
+_0xb9c0.textContent='Compila tutti i campi.';_0xb9c0.style.display='block';return
+}
+_0xb9c0.style.display='none'
+await _0x2e6f(_0x44aa,_0x55bb,_0x66cc,_0x77dd,_0x88ee)
+_0x6a7b={ token: _0x44aa,owner: _0x55bb,repo: _0x66cc,path: _0x77dd,key: _0x88ee }
+document.getElementById('x14').classList.remove('z25')
+}
+window._0x7b1a=function (e) {
+if (e.target===document.getElementById('x14'))
+document.getElementById('x14').classList.remove('z25')
+}
+document.getElementById('x01').onclick=()=>{
+document.getElementById('x14').classList.add('z25')
+}
+window._0x0d3f=async function () {
+const _0xbb2c=document.getElementById('x21').value
+const _0xb9c0=document.getElementById('x19')
+_0xb9c0.style.display='none'
+try {
+await _0x7a3b(_0xbb2c)
+document.getElementById('x20').classList.remove('z25')
+} catch {
+_0xb9c0.style.display='block'
+document.getElementById('x21').value=''
+document.getElementById('x21').focus()
+}
+}
+document.getElementById('x21').addEventListener('keydown',e=>{
+if (e.key==='Enter') _0x0d3f()
+})
+window._0xb8c4=function () {
+document.getElementById('x20').classList.remove('z25')
+document.getElementById('x14').classList.add('z25')
+}
+const _0xbc2f=document.getElementById('x02')
+let _0xd3e4=localStorage.getItem('ft-theme') ?? 'dark'
+function _0xa6c8(t) {
+document.documentElement.setAttribute('data-theme',t)
+_0xbc2f.textContent=t==='dark' ? '☀' : '🌙'
+localStorage.setItem('ft-theme',t)
+_0xd3e4=t
+}
+_0xbc2f.onclick=()=>_0xa6c8(_0xd3e4==='dark' ? 'light' : 'dark')
+_0xa6c8(_0xd3e4)
+function _0xf294() {
+document.getElementById('x04').value=new Date().toISOString().split('T')[0]
+}
+_0xf294()
+_0x9b2d(0)
+if (localStorage.getItem('ft-settings')) {
+document.getElementById('x20').classList.add('z25')
+document.getElementById('x21').focus()
+} else {
+document.getElementById('x14').classList.add('z25')
+}</script></body></html>
